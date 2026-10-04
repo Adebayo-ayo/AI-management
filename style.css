@@ -88,7 +88,7 @@ img {
 .getwatchbtns {
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 260px;
   margin-right: 20px;
 }
@@ -218,7 +218,7 @@ img {
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(to right,rgb(53, 28, 57),rgb(2, 3, 18));
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100%;
   height: 2850px;
 }
@@ -227,7 +227,7 @@ img {
 .second1 {
   position: relative;
   margin: 0 auto;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 80%;
   height: 580px;
 }
@@ -235,15 +235,16 @@ img {
 .secaipage {
   position: absolute;
   width: 96%;
-  height: 450px;
-  top: 18%;
+  height: 550px;
+  /* top: 10%; */
   left: 2%;
-  border: 4px solid peru;
+  /* border: 4px solid peru; */
 }
 
 .secpagecontent {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .secpagetxt {
@@ -251,13 +252,13 @@ img {
   align-items: center;
   width: 48%;
   height: 440px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .sectext {
   width: 80%;
   height: 220px;
   margin-left: 2%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .sectext h2 {
@@ -296,25 +297,30 @@ img {
 
 .secpageimg {
   position: relative;
-  width: 48%;
-  height: 440px;
-  border: 2px solid blue;
+  background-image: url("images/Aihead05.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 550px;
+  bottom: 10px;
+  /* border: 2px solid blue; */
 }
 
-.secpageimg img {
+/* .secpageimg img {
   position: absolute;
   left: 5%;
   bottom: 0;
 
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
-  height: 430px;
-}
+  height: 300px;
+} */
 
 .second2 {
   position: relative;
   /* margin-left: 10%; */
-  border: 2px solid rgb(0, 255, 21);
+  /* border: 2px solid rgb(0, 255, 21); */
   width: 80%;
   height: 1050px;
 }
@@ -342,7 +348,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   height: 950px;
   width: 920px;
 }
@@ -365,7 +371,7 @@ img {
 
 .featuretxt {
   color: rgb(255, 255, 255);
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 300px;
 }
 
@@ -626,13 +632,13 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 90%;
   height: 850px;
 }
 
 .cases {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -660,7 +666,7 @@ img {
 }
 .casescard {
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 90%;
   height: 270px;
   justify-content: space-around;
@@ -825,7 +831,7 @@ img {
   font-size: 0.9rem;
   font-weight: 400;
   width: 300px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 /* lastpart */
@@ -836,7 +842,7 @@ img {
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 90%;
   height: 500px;
 }
@@ -847,7 +853,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: rgb(255, 255, 255);
   width: 300px;
   height: 60px;
@@ -871,7 +877,7 @@ img {
 }
 .pricetag {
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 90%;
   height: 360px;
   justify-content: space-around;
@@ -882,7 +888,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: rgb(37, 20, 40);
   border-radius: 20px;
   width: 330px;
@@ -894,7 +900,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: rgb(37, 20, 40);
   background-image: linear-gradient(
     to right,
@@ -911,7 +917,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-image: linear-gradient(to right, rgb(45, 17, 67), rgb(43, 16, 66));
   border-radius: 20px;
   width: 330px;
@@ -922,7 +928,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-radius: 20px;
   width: 290px;
   height: 280px;
@@ -1044,7 +1050,7 @@ a .start {
   flex-direction: column;
   /* align-items: center;*/
   gap: 10px;
-  border: 4px solid peru;
+  /* border: 4px solid peru; */
   width: 14%;
   height: 34%;
   margin-top: 70px;
@@ -1070,7 +1076,7 @@ a .start {
 }
 
 .vistadiv p {
-  border: 2px solid rgb(0, 255, 145);
+  /* border: 2px solid rgb(0, 255, 145); */
   font-family: "sora", sans-serif;
   font-style: semibold;
   color: rgb(134, 132, 140);
@@ -1085,7 +1091,7 @@ a .start {
   justify-content: space-between;
   margin-top: 70px;
   margin-left: 50px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 60%;
   height: 80%;
 }
@@ -1094,7 +1100,7 @@ a .start {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 200px;
   height: 60%;
 }
@@ -1141,7 +1147,8 @@ a .start {
   height: 10px;
 }
 .line {
-  border-bottom: 2px solid green;
+  border-bottom: .8px solid rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
   width: 90%;
   height: 1px;
 }
@@ -1151,7 +1158,7 @@ a .start {
   align-items: center;
   margin-right: 70%;
   font-family: "sora", sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 0.8rem;
   font-weight: 100;
 }
